@@ -3,9 +3,9 @@
 
 This policy explains how **VDPXAI** handles information when you use the app. Please read it before using the app.
 
-## 1. Information the app may collect
+## 1. Information processed by AppScope
 
-The app sends technical usage and operational telemetry to **AppScope** to monitor app performance and download operations and to improve reliability. The information currently visible in the AppScope dashboard includes:
+VDPXAI sends technical usage and operational telemetry to **AppScope** to monitor app performance and download operations and to improve reliability. The information currently visible in the AppScope dashboard includes:
 
 - Installation and activity records, such as first app open and periodic activity signals.
 - Specific usage events, such as MP3 conversion started and completed.
@@ -16,54 +16,64 @@ Technical installation or download-task identifiers may be used to associate rel
 
 ## 2. Video, music titles, and downloaded content
 
-The current AppScope dashboard displays download category, source, size, progress, and status; it does not display the title of the video or song or the contents of the downloaded file. This does not mean that external websites or services you choose to download from do not process the links or content you submit to them. Those services are governed by their own privacy policies.
+The current AppScope dashboard displays download category, source, size, progress, and status; it does not display the title of the video or song or the contents of the downloaded file. This statement describes the information shown in the AppScope dashboard and is not a guarantee about information processed by external download websites or services. Those external services are governed by their own privacy policies.
 
-## 3. How information is used
+## 3. How AppScope information is used
 
-Telemetry is used to operate app features, monitor download and conversion completion, diagnose errors and performance issues, understand general usage, improve reliability, and protect the service against misuse or unauthorized activity.
+AppScope telemetry is used to operate app features, monitor download and conversion completion, diagnose errors and performance issues, understand general usage, improve reliability, and protect the service against misuse or unauthorized activity.
 
-## 4. AppScope and service providers
+## 4. AppScope infrastructure providers
 
-Telemetry is sent to AppScope, the app developer's analytics service. Its current backend infrastructure uses **Vercel** for hosting and **Neon** for database services. These providers may process information as needed to provide their services, subject to their own terms and privacy policies.
+AppScope's current backend infrastructure uses **Vercel** for hosting and **Neon** for database services. These providers may process information as needed to provide their services, subject to their own terms and privacy policies.
 
 ## 5. Advertising and Start.io
 
-VDPXAI currently uses Start.io to provide advertisements. When the Start.io SDK is active, Start.io's published privacy policy says that it may process information such as the Android Advertising ID, IP address, app name and category, device and operating-system details, network and Wi-Fi information, carrier, time zone, language settings, and advertising interaction or measurement information. Location information may also be processed where permitted by device permissions or inferred from IP address, Wi-Fi, or mobile-network information. The exact information processed depends on the SDK integration, available signals, device settings, permissions, and applicable choices.
+This App uses Start.io Services. Start.io Services will provide you with a personalized advertising experience based on your profile, location and apps, throughout Start.io Network, which includes Start.io Data Partners.
 
-Start.io states that it may use information for advertising, measurement, fraud prevention, and service operation, and may make data available to advertisers, advertising agencies, business partners, and data partners. Please review Start.io's own privacy policy for further details and available choices:
-https://www.start.io/policy/privacy-policy/
+View Start.io SDK and Services terms of use and Privacy Policy.
 
-VDPXAI may add, replace, or remove advertising providers in future versions. When this happens, this policy and any relevant in-app privacy disclosures will be updated to identify the providers and describe their data practices as applicable. The presence of this statement does not mean that any provider other than Start.io is currently integrated.
+- Privacy Policy: https://www.start.io/policy/privacy-policy/
+- SDK and Services terms of use: https://www.start.io/startio-services/
+- Data Partners: https://www.start.io/startio-data-partners-list/
+
+Start.io's processing and sharing of information is described in its own Privacy Policy. Please review that policy and the linked information above.
+
+VDPXAI currently identifies Start.io as its advertising provider. If another advertising provider is added or Start.io is replaced, the app's privacy disclosures and any required user notices or consent choices will be reviewed and updated before that provider is used in a released version. This policy does not mean that any provider other than Start.io is currently integrated.
 
 ## 6. External links and download sources
 
 When you choose an external link or download source, the app may connect to the relevant website or service to carry out your request. The VDPXAI developer does not control the privacy practices, content, or terms of those external services. Please review the privacy policy of any external service you use.
 
-## 6. Sharing
+## 7. Sharing and disclosure
 
-AppScope analytics are not made publicly available. Access is limited to operating and administering AppScope, and information may be processed by the infrastructure providers described above. Information may also be disclosed when required by law or when necessary to protect the service and users' rights.
+AppScope telemetry is not made publicly available. It may be processed by the infrastructure providers described above to operate AppScope. Information may also be disclosed if required by law or when necessary to protect the service and users' rights.
 
-## 7. Data retention and security
+Start.io processes and may share information within its advertising network as described in the Start.io Privacy Policy linked in Section 5. Start.io's handling of that information is governed by its own policy and terms.
+
+## 8. Data retention and security
 
 Information is retained for as long as reasonably necessary for the operational or security purposes described in this policy, and is then deleted or de-identified when practical and appropriate. Reasonable safeguards are used to protect information; however, no electronic transmission or storage method is completely secure.
 
-## 8. Your choices and privacy requests
+## 9. Your choices and privacy requests
 
-You may stop using the app and uninstall it at any time. To ask questions about information associated with your installation or request its deletion, contact the developer through the GitHub page below. Include only non-sensitive technical details that may help locate the relevant record, such as the app version or a download-task ID if available. Do not send passwords, access tokens, or sensitive information.
+You may stop using the app and uninstall it at any time. For questions about AppScope information associated with your installation or to request its deletion, contact the developer through the GitHub page below. Include only non-sensitive technical details that may help locate the relevant record, such as the app version or a download-task ID if available. Do not send passwords, access tokens, or sensitive information.
 
 https://github.com/y20006105
 
+For choices or requests relating to Start.io's advertising services or data processing, please also review Start.io's Privacy Policy and opt-out information:
+https://www.start.io/policy/privacy-policy/
+
 Requests will be reviewed and handled in accordance with applicable law, subject to information that may need to be retained for legal, security, or operational reasons.
 
-## 9. Children's privacy
+## 10. Children's privacy
 
 The app is not intended to knowingly request personal information from children. If you are a parent or guardian and believe a child has submitted personal information through the app, please contact the developer using the GitHub page above.
 
-## 10. Changes to this policy
+## 11. Changes to this policy
 
-This policy may be updated when the app, analytics services, or legal requirements change. The latest version will be published at this URL together with an updated “Last updated” date. Please review it periodically.
+This policy may be updated when the app, analytics services, advertising providers, or legal requirements change. The latest version will be published at this URL together with an updated “Last updated” date. Please review it periodically.
 
-## 11. Contact
+## 12. Contact
 
-For privacy questions or requests, contact the app developer through:
+For privacy questions or requests relating to VDPXAI or AppScope, contact the app developer through:
 https://github.com/y20006105-web
