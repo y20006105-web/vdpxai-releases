@@ -26,7 +26,16 @@ Telemetry is used to operate app features, monitor download and conversion compl
 
 Telemetry is sent to AppScope, the app developer's analytics service. Its current backend infrastructure uses **Vercel** for hosting and **Neon** for database services. These providers may process information as needed to provide their services, subject to their own terms and privacy policies.
 
-## 5. External links and download sources
+## 5. Advertising and Start.io
+
+VDPXAI currently uses Start.io to provide advertisements. When the Start.io SDK is active, Start.io's published privacy policy says that it may process information such as the Android Advertising ID, IP address, app name and category, device and operating-system details, network and Wi-Fi information, carrier, time zone, language settings, and advertising interaction or measurement information. Location information may also be processed where permitted by device permissions or inferred from IP address, Wi-Fi, or mobile-network information. The exact information processed depends on the SDK integration, available signals, device settings, permissions, and applicable choices.
+
+Start.io states that it may use information for advertising, measurement, fraud prevention, and service operation, and may make data available to advertisers, advertising agencies, business partners, and data partners. Please review Start.io's own privacy policy for further details and available choices:
+https://www.start.io/policy/privacy-policy/
+
+VDPXAI may add, replace, or remove advertising providers in future versions. When this happens, this policy and any relevant in-app privacy disclosures will be updated to identify the providers and describe their data practices as applicable. The presence of this statement does not mean that any provider other than Start.io is currently integrated.
+
+## 6. External links and download sources
 
 When you choose an external link or download source, the app may connect to the relevant website or service to carry out your request. The VDPXAI developer does not control the privacy practices, content, or terms of those external services. Please review the privacy policy of any external service you use.
 
