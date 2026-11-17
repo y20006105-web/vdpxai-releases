@@ -28,17 +28,18 @@ AppScope's current backend infrastructure uses **Vercel** for hosting and **Neon
 
 ## 5. Advertising and Start.io
 
-This App uses Start.io Services. Start.io Services will provide you with a personalized advertising experience based on your profile, location and apps, throughout Start.io Network, which includes Start.io Data Partners.
+VDPXAI has submitted an advertising campaign to Start.io. Based on the latest support correspondence available to the developer, the campaign is still under review and advertisements are not currently being served through that campaign as of November 17, 2026.
 
-View Start.io SDK and Services terms of use and Privacy Policy.
+Ad delivery status and SDK data processing are separate matters. If the Start.io SDK is installed and active in a version of VDPXAI, Start.io may collect, process, use, and share end-user information through that SDK in accordance with its own End User Privacy Policy, even when a particular ad request does not result in an advertisement being displayed. Whether this processing occurs in a particular app version depends on the SDK being included and operating in that version.
 
-- Privacy Policy: https://www.start.io/policy/privacy-policy/
-- SDK and Services terms of use: https://www.start.io/startio-services/
+Please review Start.io's own documents for details about its data practices and services:
+
+- End User Privacy Policy: https://www.start.io/policy/privacy-policy/
+- SDK and Services terms: https://www.start.io/startio-services/
 - Data Partners: https://www.start.io/startio-data-partners-list/
 
-Start.io's processing and sharing of information is described in its own Privacy Policy. Please review that policy and the linked information above.
+Any future activation, replacement, or addition of an advertising provider will require the app's privacy disclosures and any legally required user notices or consent choices to be reviewed and updated before that provider is used in a released version. This policy does not state that Start.io ads are currently being delivered in VDPXAI.
 
-VDPXAI currently identifies Start.io as its advertising provider. If another advertising provider is added or Start.io is replaced, the app's privacy disclosures and any required user notices or consent choices will be reviewed and updated before that provider is used in a released version. This policy does not mean that any provider other than Start.io is currently integrated.
 
 ## 6. External links and download sources
 
@@ -48,7 +49,7 @@ When you choose an external link or download source, the app may connect to the 
 
 AppScope telemetry is not made publicly available. It may be processed by the infrastructure providers described above to operate AppScope. Information may also be disclosed if required by law or when necessary to protect the service and users' rights.
 
-Start.io processes and may share information within its advertising network as described in the Start.io Privacy Policy linked in Section 5. Start.io's handling of that information is governed by its own policy and terms.
+If the Start.io SDK is included and active in a VDPXAI version, Start.io may process and share information through its advertising network as described in the Start.io Privacy Policy linked in Section 5. The fact that the campaign is not currently serving ads does not, by itself, establish whether the SDK is present or whether SDK-related data processing occurs.
 
 ## 8. Data retention and security
 
